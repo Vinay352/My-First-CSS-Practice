@@ -1,0 +1,186 @@
+h1{
+    color: blue;
+    text-decoration: underline;
+    font: bold italic 35px Tahoma, Arial, serif;
+    letter-spacing: 10px;
+    word-spacing: 10px;
+}
+
+.clr{
+    clear: both;
+}
+
+a:visited{
+    color: chocolate;
+}
+
+a:link{
+    color: red;
+    text-decoration: none;
+}
+
+a:hover{
+    color: purple;
+}
+
+a:active{
+    color: chartreuse;
+}
+
+#container{
+    margin: auto;
+    width: 80%;
+}
+
+p{
+    color: greenyellow;
+}
+
+.button{
+    color: red;
+    background-color: green;
+    padding: 15px;
+    border: none;
+}
+
+.button:hover{
+    background-color: red;
+    color: white;
+}
+
+.box1{
+    line-height: 1.5em;
+    background-color: grey;
+    padding: 20px;
+    margin: 20px;
+    border: 3px solid red;
+    border-bottom: 6px solid red;
+    border-radius: 15px;
+}
+
+.box2{
+    line-height: 1.5em;
+    background-color: grey;
+    padding: 20px;
+    margin: 20px;
+    border: 3px dotted green;
+    border-bottom: 6px dotted green;
+    border-radius: 15px;
+}
+
+.box3{
+    border: 2px dotted grey;
+    margin: 20px;
+}
+
+.box3 h1{
+    /*
+    border: 1px solid grey;
+    padding: 0;
+    */
+    margin: 0;
+    text-align: center;
+}
+
+.box3 ul{
+    padding: 0 0 0 70px;
+    list-style: none;
+    list-style-image: url("../images/smiley.png");
+}
+
+.box3 li{
+    padding-bottom: 10px;
+    border-bottom: 1px solid black;
+}
+
+.box4{
+    border: 2px dotted grey;
+    margin: 20px;
+    padding: 20px;
+}
+
+.form-group input[type = text], .box4 textarea{
+    display: block;
+    width: 100%;
+    padding: 5px 0 35px 0;
+    margin-bottom: 10px;
+    border: 1px dotted black;
+}
+
+.blocks{
+    border: 1px solid black;
+    width: 33.3%;
+    float: left;
+    box-sizing: border-box;
+    padding: 0 15px;
+    background-color: grey;
+}
+
+#main-bar{
+    float: left;
+    width: 70%;
+    border: 1px dotted red;
+    box-sizing: border-box;
+    border-top: none;
+}
+
+#side-bar{
+    float: right;
+    width: 30%;
+    border: 1px dotted red;
+    border-top: none;
+    box-sizing: border-box;
+    background-color: pink;
+}
+
+.p-box{
+    width: 100%;
+    height: 500px;
+    border: 1px solid green;
+    position: relative;
+    background: no-repeat;
+    background-position: center;
+    background-image: url('../images/LinkedInPhoto.png');
+}
+
+.p-box h1{
+    position: absolute;
+    top: 200px;
+    left: 100px
+}
+
+.p-box h2{
+    position: absolute;
+    top: 100px;
+    left: 200px
+}
+
+.fixMe{
+    position: fixed;
+    top: 100px;
+    left: 0;
+}
+
+.listElem li{
+    padding: 10px;
+}
+
+.listElem li:nth-child(odd){
+    background-color: yellow;
+}
+
+.listElem li:first-child{
+    background-color: red;
+}
+
+.listElem li:nth-child(even){
+    background-color: green;
+}
+
+.listElem li:last-child{
+    background-color: blue;
+}
+
+.listElem li:nth-child(6){
+    background-color: grey;
+}
