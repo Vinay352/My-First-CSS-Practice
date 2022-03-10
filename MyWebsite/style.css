@@ -1,0 +1,96 @@
+body{
+    background-color: lightgreen;
+    margin: 0;
+}
+
+.container{
+    width: 80%;
+    /*border: 1px dotted red;*/
+    margin: auto;
+    overflow: hidden;
+}
+
+.clr{
+    clear: both;
+}
+
+#main-header{
+    background-color: orange;
+    color: white;
+    text-decoration: solid;
+}
+
+#nav-bar{
+    background-color: black;
+}
+
+#nav-bar li{
+    list-style-type: none;
+    display: inline;
+    padding: 0 55px 0 30px;
+    box-sizing: border-box;
+    color: white;
+}
+
+#main-section{
+    background-image: url("../images/LinkedInPhoto.png");
+    background-position: center;
+    min-height: 400px;
+}
+
+#main-section p{
+    font: 40px solid, italic Tahoma, Arial, serif;
+    text-align: center;
+    width: 70%;
+    color: aqua;
+    margin: auto;
+    margin-top: 80px;
+    line-height: 1.2em;
+}
+
+#second-section p{
+    line-height: 1.2em;
+}
+
+#aside-section p{
+    line-height: 1.3em;
+}
+
+#second-section{
+    float: left;
+    width: 70%;
+    background-color: white;
+    margin-top: 10px;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+#aside-section{
+    float: right;
+    width: 30%;
+    background-color: grey;
+    color: red;
+    margin-top: 10px;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+#main-footer{
+    background-color: blue;
+    color: white;
+    text-align: center;
+}
+
+@media(max-width: 600px){
+    
+    #second-section{
+        width: 100%;
+        float: none;
+    }
+
+    #aside-section{
+        width: 100%;
+        float: none;
+    }
+
+}
